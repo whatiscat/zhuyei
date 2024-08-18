@@ -26,3 +26,10 @@
                     Text="未知" EventType="打开网页" EventData="https://www.bilibili.com/video/BV1GJ411x7h7/?spm_id_from=333.337.search-card.all.click" />
 	</StackPanel>
 </local:MyCard>
+
+<local:MyCard Title="主页说明" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="主页联网更新，由于是在github上下载的，所以请打开Watt Toolkit加速github以便更新主页" />
+	</StackPanel>
+</local:MyCard>
