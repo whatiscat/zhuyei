@@ -1,0 +1,28 @@
+﻿
+<local:MyCard Title="网络" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="网络信息：                                                                                             名称：whatiscat                                 密码:1q2w3e4r" />
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="联机教学" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+		<local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="打开" EventType="打开网页" EventData="https://www.bilibili.com/video/av454220244/" />
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="客户端1.0.2的主要更新" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="主要更新了失落城市和游戏内输入法，以及其他mod。删去了一些容易诱发崩溃的mod（虽然依然不稳定）" />
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="未知" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+		<local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="未知" EventType="打开网页" EventData="https://www.bilibili.com/video/BV1GJ411x7h7/?spm_id_from=333.337.search-card.all.click" />
+	</StackPanel>
+</local:MyCard>
